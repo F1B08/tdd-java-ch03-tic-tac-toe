@@ -11,7 +11,7 @@ public class TicTacToe {
             throw new RuntimeException("Y is outside board");
         }
         if (board[x - 1][y - 1] != null) {
-            throw new RuntimeException("Y is outside board");
+            throw new RuntimeException("Box is occupied");
         } else {
             board[x - 1][y - 1] = 'X';
         }

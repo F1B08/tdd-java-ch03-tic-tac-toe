@@ -39,7 +39,7 @@ public class TicTacToe {
     }
 
     private boolean isWin() {
-        int playerTotal = lastPlayer * 3;
+        int playerTotal = lastPlayer * SIZE;
         char diagonal1 = '\0';
         char diagonal2 = '\0';
         for (int i = 0; i < SIZE; i++) {
